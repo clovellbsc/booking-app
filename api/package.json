@@ -1,0 +1,31 @@
+{
+  "name": "booking-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.0.3",
+    "eslint-config-airbnb": "^19.0.4",
+    "express": "^4.18.2",
+    "mongoose": "^6.9.2",
+    "nodemon": "^2.0.20"
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0 || ^8.2.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-node": "^4.1.0",
+    "eslint-config-prettier": "^8.6.0",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "prettier": "^2.8.4"
+  }
+}
